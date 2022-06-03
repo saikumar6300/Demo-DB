@@ -35,30 +35,6 @@ select * from Dev.agents
 --rollback drop table Dev.AGENTS
 
 
-
---changeset liquibase:ID-2
-CREATE TABLE Employee_Info
-(
-EmployeeID int,
-EmployeeName varchar(255),
-EmergencyContactName varchar(255),
-PhoneNumber bigint,
-Address varchar(255),
-City varchar(255),
-Country varchar(255)
-);
-
---changeset liquibase:ID-3
-INSERT INTO Employee_Info(EmployeeID, EmployeeName, EmergencyContactName, PhoneNumber, Address, City, Country)
-VALUES ('06', 'Sanjana','Jagannath', '9921321141', 'Camel Street House No 12', 'Chennai', 'India');
- 
-INSERT INTO Employee_Info
-VALUES ('07', 'Sayantini','Praveen', '9934567654', 'Nice Road 21', 'Pune', 'India');
-
---rollback drop table Employee_Info
-
-
-
 --changeset liquibase:ID-4
 --comment Product Catalog table is dependent on sku tracking being activated.
 CREATE TABLE product_catalog_tbl (
