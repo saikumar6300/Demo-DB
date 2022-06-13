@@ -29,9 +29,9 @@ Steps:
 
 Points to Remembers:
 
-a. "Liquibase.Properties" - in this file we need to mention the parameters to get connect to the target Database.
-b. "JDBC Driver" - used to establish the connection between the targeted Databse and Liquibase from the command prompt or any terminal.
-c. "Databasechangelogfile" - we should mention in any 4 formats (SQL, JSON, YAML, XML) to update or rollback the target database.
+1. "Liquibase.Properties" - in this file we need to mention the parameters to get connect to the target Database.
+2. "JDBC Driver" - used to establish the connection between the targeted Databse and Liquibase from the command prompt or any terminal.
+3. "Databasechangelogfile" - we should mention in any 4 formats (SQL, JSON, YAML, XML) to update or rollback the target database.
 
 For any Further info Visit:
 https://forum.liquibase.org/ - using this website, we can clear our doubts by contacting the liquibase Supporters and also we can post our doubts here to get cleared.
