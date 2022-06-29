@@ -10,7 +10,7 @@ Steps:
 1. Declare Environmental Variables for Liquibase and Classpath variable for JDBC Driver.
 2. Check Liquibase is installed in your local or not, open POWERSHELL and Type liquibase --version, click enter to see the liquibase version.
 3. Generate Changelog file - we mention our scripts in xml, Json, Yaml, Formatted SQL formats to update or rollback the DB changes.
-4. "liquibase --changelog-file=mychangelog.oracle.sql generate-changelog" - usimg this command we can generate Changelogfile.
+4. "liquibase --changelog-file=mychangelog.oracle.sql generate-changelog" - using this command we can generate Changelogfile.
 5. https://docs.liquibase.com/concepts/connections/creating-config-properties.html - by using the mentioned parameters in the command prompt or terminal we can specify    connection to targeted database 
    using liquibase.
 6. Example for Sql Database:
