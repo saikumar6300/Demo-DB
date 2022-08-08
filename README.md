@@ -1,6 +1,6 @@
 Prerequisites:
 1. Liquibase Installed
-[Liquibase installed][Liquibase installed.png]
+[Liquibase installed](Liquibase installed.png)
 3. Created a New Liquibase.properties file or using the existing Liquibase.properties file included in the installation package.
 4. For More info about Specifying Properties - https://docs.liquibase.com/concepts/connections/creating-config-properties.html
 5. JDBC Driver Installed.
