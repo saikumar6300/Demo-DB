@@ -15,7 +15,7 @@ Steps:
    using liquibase.
 6. Example for Sql Database:
    liquibase --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver 
-   --url=jdbc:sqlserver://localhost;portNumber=1433;database=dev;encrypt=true;trustServerCertificate=true;
+   --url=jdbc:sqlserver://jdbc:sqlserver://volaris-innovlabs-sqlserver.cloj22qg1okc.us-west-2.rds.amazonaws.com:1433;database=Liquibase;encrypt=true;trustServerCertificate=true;
    --ChangeLogFile=databasechangelog.sql
    --classpath=C:/Program Files/liquibase/lib/sqljdbc_10.2/enu
    --username=user
