@@ -3,11 +3,19 @@ Prerequisites:
    ![Liquibase Installed](https://user-images.githubusercontent.com/99462555/183362506-f18867fc-46db-4c96-816b-19b70e5c2723.png)
 
 3. Created a New Liquibase.properties file or using the existing Liquibase.properties file included in the installation package.
-4. For More info about Specifying Properties - https://docs.liquibase.com/concepts/connections/creating-config-properties.html
-5. JDBC Driver Installed.
-6. Place the JDBC .jar file in the "liquibase/lib" directory.
-7. Microsoft SQL Server Management Studio Installed.
+   ![Liquibase Properties](https://user-images.githubusercontent.com/99462555/183363154-bfcc3aad-27ae-4cbc-b2f4-4d78c17d2bcd.png)
 
+5. For More info about Specifying Properties - https://docs.liquibase.com/concepts/connections/creating-config-properties.html
+6. Download JDBC Driver and Install it.
+   ![JDBC Driver](https://user-images.githubusercontent.com/99462555/183363622-7c407929-191f-4ccd-a391-1b91ca9f49b0.png)
+
+8. Place the JDBC .jar file in the "liquibase/lib" directory.
+   ![JDBC Driver in lib directory](https://user-images.githubusercontent.com/99462555/183364047-91287b74-3a71-401c-9b35-3b76e880e03f.png)
+
+10. Microsoft SQL Server Management Studio Installed.
+    ![MS SQL Studio](https://user-images.githubusercontent.com/99462555/183364765-fbd89634-4754-416e-a281-6af1fec23248.png)
+
+    
 Steps:
 1. Declare Environmental Variables for Liquibase and Classpath variable for JDBC Driver.
 2. Check Liquibase is installed in your local or not, open POWERSHELL and Type liquibase --version, click enter to see the liquibase version.
