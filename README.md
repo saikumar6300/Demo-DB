@@ -1,10 +1,11 @@
 Prerequisites:
 1. Liquibase Installed
-2. Created a New Liquibase.properties file or using the existing Liquibase.properties file included in the installation package.
-3. For More info about Specifying Properties - https://docs.liquibase.com/concepts/connections/creating-config-properties.html
-4. JDBC Driver Installed.
-5. Place the JDBC .jar file in the "liquibase/lib" directory.
-6. Microsoft SQL Server Management Studio Installed.
+[Liquibase installed][Liquibase installed.png]
+3. Created a New Liquibase.properties file or using the existing Liquibase.properties file included in the installation package.
+4. For More info about Specifying Properties - https://docs.liquibase.com/concepts/connections/creating-config-properties.html
+5. JDBC Driver Installed.
+6. Place the JDBC .jar file in the "liquibase/lib" directory.
+7. Microsoft SQL Server Management Studio Installed.
 
 Steps:
 1. Declare Environmental Variables for Liquibase and Classpath variable for JDBC Driver.
